@@ -1,6 +1,6 @@
 // src/App.jsx
 import React, { useState, useEffect } from 'react';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/SideBar';
 
 // --- React Pages Imports (Preserving exact filenames & casings) ---
 import UseStateDoc from './pages/UseStateDoc';
