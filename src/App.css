@@ -1,0 +1,28 @@
+/* src/index.css (ya App.css) */
+
+/* 1. Sabhi default browser margins ko 0 karo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Body aur html ko full width aur height do */
+body, html {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #23272f;
+  color: #f6f7f9;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden; /* Side scroll bar hatane ke liye */
+}
+
+/* 3. Vite/React apne app ko #root id wale div me dalta hai */
+/* Isko full width dena sabse zyada zaroori hai */
+#root {
+  width: 100%;
+  max-width: none; /* Vite ka default max-width override karne ke liye */
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Vite default center alignment hatane ke liye */
+}
