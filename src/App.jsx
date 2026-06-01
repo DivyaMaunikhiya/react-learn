@@ -8,14 +8,14 @@ import UseEffectDoc from './pages/UseEffectDoc';
 import UsePropsDoc from './pages/UsePropsDoc';
 import UseContextDoc from './pages/UseContextDoc';
 import UseRefDoc from './pages/UseRefDoc';
-import UseReducerDoc from './pages/useReducer'; 
+import UseReducerDoc from './pages/UseReducer'; 
 import ReactMemoDoc from './pages/ReactMemoDoc';
 import UseMemoDoc from './pages/UseMemoDoc';
 import UseCallbackDoc from './pages/UseCallbackDoc';
 import ReduxDoc from './pages/ReduxDoc';
 import UseCustomHookDoc from './pages/UseCustomHookDoc';
 import UseRouterDoc from './pages/UseRouterDoc';
-import UseVirtualDomDoc from './pages/useVirtualDomDoc'; 
+import UseVirtualDomDoc from './pages/UseVirtualDomDoc'; 
 import UltimateCheatSheet from './pages/UltimateCheatSheet';
 
 // --- Node Pages Imports ---
